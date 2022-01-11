@@ -13,4 +13,4 @@ COPY --from=builder app/application/ ./
 ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
 CMD ["--spring.profiles.active=live"]
 
-CMD ["java" , "-jar", "/Notification-Microservice.jar"]
+CMD ["java" , "-jar", "/Email-Notification-Service.jar"]
